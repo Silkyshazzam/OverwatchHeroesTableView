@@ -12,6 +12,8 @@
 		AEE9FEB21F468DC600F936DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE9FEB01F468DC600F936DF /* Main.storyboard */; };
 		AEE9FEB41F468DC600F936DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE9FEB31F468DC600F936DF /* Assets.xcassets */; };
 		AEE9FEB71F468DC600F936DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE9FEB51F468DC600F936DF /* LaunchScreen.storyboard */; };
+		AEE9FEBF1F47B54F00F936DF /* HeroesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9FEBE1F47B54F00F936DF /* HeroesData.swift */; };
+		AEE9FEC11F47DFC500F936DF /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9FEC01F47DFC500F936DF /* Heroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AEE9FEB31F468DC600F936DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEE9FEB61F468DC600F936DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE9FEB81F468DC600F936DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEE9FEBE1F47B54F00F936DF /* HeroesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroesData.swift; sourceTree = "<group>"; };
+		AEE9FEC01F47DFC500F936DF /* Heroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AEE9FEB01F468DC600F936DF /* Main.storyboard */,
 				AEE9FEB31F468DC600F936DF /* Assets.xcassets */,
 				AEE9FEB51F468DC600F936DF /* LaunchScreen.storyboard */,
+				AEE9FEBE1F47B54F00F936DF /* HeroesData.swift */,
+				AEE9FEC01F47DFC500F936DF /* Heroes.swift */,
 				AEE9FEB81F468DC600F936DF /* Info.plist */,
 			);
 			path = TableViewExcercise;
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE9FEBF1F47B54F00F936DF /* HeroesData.swift in Sources */,
+				AEE9FEC11F47DFC500F936DF /* Heroes.swift in Sources */,
 				AEE9FEAF1F468DC600F936DF /* TableViewController.swift in Sources */,
 				AEE9FEAD1F468DC600F936DF /* AppDelegate.swift in Sources */,
 			);

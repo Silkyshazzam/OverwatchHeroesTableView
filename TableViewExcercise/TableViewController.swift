@@ -8,10 +8,13 @@
 
 import UIKit
 
-class TableViewController: UIViewController {
+class TableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
+    var allHeroesRoles: [[Heroes]] = [OverwatchHeroes.offense, OverwatchHeroes.defense, OverwatchHeroes.tank, OverwatchHeroes.support]
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
